@@ -30,7 +30,7 @@ const Gate = new Gate({
   },
 });
 
-if (Gate.allows(create-post, post)) {
+if (Gate.allows('create-post', post)) {
   // User is allowed to create the post
 }
 
