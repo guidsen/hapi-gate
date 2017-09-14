@@ -10,7 +10,7 @@ A authorization plugin that works seamlessly with any NodeJS web framework. Insp
 ## Usage
 
 ```javascript
-const { Gate, Policy } = require('hapi-gate);
+const { Gate, Policy } = require('hapi-gate');
 
 const abilities = {
   create(post, user) {
